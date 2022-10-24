@@ -43,7 +43,7 @@ ul {
     display: flex;
     justify-content: space-between;
     gap: 100px;
-    margin: 50px 0px;
+    margin: 50px 0px 100px;
 }
 
 .titlecontent {
@@ -87,15 +87,16 @@ ul {
 }
 
 .midtitle>h2 {
-    padding: 30px;
+    margin: 30px;
     font-size: 36px;
-    font-weight: 800;
+    font-weight: 700;
     color: #1f2937;
 }
 
 .imageboxes {
     display: flex;
     gap: 10px;
+    margin: 30px;
 }
 
 .midimagebox {
@@ -105,9 +106,53 @@ ul {
     align-items: center;
 }
 
-.midimage{
+.midimage {
     border: 3px solid #3882f6;
     border-radius: 10px;
     width: 130px;
     height: 130px;
+}
+
+.quotebox {
+    background-color: #e5e7eb;
+    padding: 100px 250px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quotecredits {
+    text-align: right;
+    font-weight: bold;
+}
+
+.callbox {
+    background-color: #3882f6;
+    margin: 50px 150px;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.calltoaction{
+    color: white;
+}
+
+.callbox button {
+    background-color: #3882f6;
+    border: 2px solid white;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: white;
+    padding: 20px;
+    text-align: center;
 }
